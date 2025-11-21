@@ -1,7 +1,7 @@
 # Empowering Small Language Models with Factual Hallucination-Aware Reasoning for Financial Classification
 ## Abstract
 Small language models (SLMs) are increasingly used for financial classification due to their fast inference and local deployability.
-> ### Please read our [article](https://arxiv.org/abs/) for further information.
+> ### Please read our [article](https://han-yuan-med.github.io/files/Empowering%20Small%20Language%20Models%20with%20Factual%20Hallucination-Aware%20Reasoning%20for%20Financial%20Classification.pdf) for further information.
 
 ## Dataset Files
 - **`llama_aaai`**, **`gemma_aaai`**, and **`phi_aaai`** contain the datasets corresponding to each language model (LM) used in our experiments.  
