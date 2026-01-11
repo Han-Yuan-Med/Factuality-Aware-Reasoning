@@ -1,7 +1,7 @@
 # Empowering Small Language Models with Factual Hallucination-Aware Reasoning for Financial Classification
 ## Abstract
-Small language models (SLMs) are increasingly used for financial classification due to their fast inference and local deployability.
-> ### Please read our [article](https://han-yuan-med.github.io/files/Empowering%20Small%20Language%20Models%20with%20Factual%20Hallucination-Aware%20Reasoning%20for%20Financial%20Classification.pdf) for further information.
+Small language models (SLMs) are increasingly used for financial classification due to their fast inference and local deployability. However, compared with large language models, SLMs are more prone to factual hallucinations in reasoning and exhibit weaker classification performance. This raises a natural question: Can mitigating factual hallucinations improve SLMs' financial classification? To address this, we propose a three-step pipeline named AAAI (Association Identification, Automated Detection, and Adaptive Inference). Experiments on three representative SLMs reveal that: (1) factual hallucinations are positively correlated with misclassifications; (2) encoder-based verifiers effectively detect factual hallucinations; and (3) incorporating feedback on factual errors enables SLMs' adaptive inference that enhances classification performance. We hope this pipeline contributes to trustworthy and effective applications of SLMs in finance.
+> ### Please read our [article](https://arxiv.org/abs/2601.01378) for further information.
 
 ## Dataset Files
 - **`llama_aaai`**, **`gemma_aaai`**, and **`phi_aaai`** contain the datasets corresponding to each language model (LM) used in our experiments.  
@@ -25,4 +25,25 @@ Small language models (SLMs) are increasingly used for financial classification 
   - Adaptive inference guided by feedback from corresponding verifier models detecting factual hallucinations.
 
 ## Citation
-- Empowering Small Language Models with Factual Hallucination-Aware Reasoning for Financial Classification
+If you use our findings in a scientific publication, we would appreciate using the following citations:
+```
+@inproceedings{yuan-etal-structured-output,
+    title = "Empowering Small Language Models with Factual Hallucination-Aware Reasoning for Financial Classification",
+    author = "Yuan, Han  and
+      Wu, Yilin  and
+      Zhang, Li  and
+      Ma, Zheng",
+    booktitle = "The AAAI 2026 Workshop on Trust and Control in Agentic AI",
+    year = "2026",
+}
+
+@misc{yuan2026empoweringsmalllanguagemodels,
+      title={Empowering Small Language Models with Factual Hallucination-Aware Reasoning for Financial Classification}, 
+      author={Han Yuan and Yilin Wu and Li Zhang and Zheng Ma},
+      year={2026},
+      eprint={2601.01378},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2601.01378}, 
+}
+```
