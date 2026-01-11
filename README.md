@@ -27,7 +27,7 @@ Small language models (SLMs) are increasingly used for financial classification 
 ## Citation
 If you use our findings in a scientific publication, we would appreciate using the following citations:
 ```
-@inproceedings{yuan-etal-structured-output,
+@inproceedings{yuan-etal-slms,
     title = "Empowering Small Language Models with Factual Hallucination-Aware Reasoning for Financial Classification",
     author = "Yuan, Han  and
       Wu, Yilin  and
